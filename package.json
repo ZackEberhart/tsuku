@@ -9,10 +9,12 @@
   },
   "dependencies": {
     "@react-native-community/netinfo": "3.2.1",
+    "braces": "^3.0.2",
     "color": "^3.1.2",
     "expo": "^33.0.0",
     "expo-ads-admob": "^5.0.1",
     "expo-linear-gradient": "^5.0.1",
+    "mem": "^6.0.1",
     "patch-package": "^6.1.2",
     "pusher-js": "^5.0.0",
     "react": "16.8.3",
