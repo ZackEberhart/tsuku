@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Tsuku",
+    "slug": "playtsuku",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "platforms": [
+      "android",
+    ],
+    "version": "1.0.3",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D1B1E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["VIBRATE"],
+      "package": "io.ciaos.tsuku",
+      "versionCode": 4,
+    },
+    "description": "A shameless Shobu clone."
+  },
+  "scripts": {
+    "postinstall": "patch-package"
+  }
+}
